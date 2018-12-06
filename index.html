@@ -14,101 +14,106 @@
   <div class="container">
     <div class="jumbotron">
       <h1>Student Quiz Board</h1>
-      <p>This is a multiple-choice quiz for the club and you are all required to complete all the questions. The test will take 30 minutes.The quiz will enable you rate your understanding of JavaScript. Read through the choices then select one.</p>
+      <p>This is a multiple-choice quiz for the club and you are all required to complete all the questions. The test will take <strong>30 MINUTES</strong>.The quiz will enable you rate your understanding of JavaScript. Read through the choices then select <strong>ONE ANSWER</strong>.</p>
     </div>
-<form class="questions" action="index.html" method="post">
-  <div class="question">1.Which of the following function of Aray object removes the first element from an array and returns that element?
-    <div class="answer">
-      <input type="radio" name="questionOneAnswer" value="Push()">Push()
+    <form id="exam" action="index.html" method="post">
+      <div class="question"><strong>1.Which of the following function of Aray object removes the first element from an array and returns that element? </strong>
+        <div class="answer">
+          <input type="radio" name="questionOneAnswer" value="Push()">Push()
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionOneAnswer" value="Slice()">Slice()
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionOneAnswer" value="Shift()">Shift()
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionOneAnswer" value="Concat()">Concat()
+        </div>
       </div>
-      <div class="answer">
-        <input type="radio" name="questionOneAnswer" value="Slice()">Slice()
-              </div>
-              <div class="answer">
-                <input type="radio" name="questionOneAnswer" value="Shift()">Shift()
-              </div>
-              <div class="answer">
-                <input type="radio" name="questionOneAnswer" value="Concat()">Concat()
-              </div>
-  </div>
-  <br>
-  <div class="question">2. In debugging, where is the error icon option available?
-<div class="answer">
-  <input type="radio" name="questionTwoAnswer" value="File">File
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionTwoAnswer" value="Tools">Tools
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionTwoAnswer" value="Edit">Edit
-  </div>
-<div class="answer">
-  <input type="radio" name="questionTwoAnswer" value="Help">Help
+      <br>
+      <div class="question"><strong>2. In debugging, where is the error icon option available?</strong>
+        <div class="answer">
+          <input type="radio" name="questionTwoAnswer" value="File">File
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionTwoAnswer" value="Tools">Tools
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionTwoAnswer" value="Edit">Edit
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionTwoAnswer" value="Help">Help
+        </div>
+      </div>
+      <br>
+      <div class="question"><strong>3. What is the other way of calling the Error Console in Firefox?</strong>
+        <div class="answer">
+          <input type="radio" name="questionThreeAnswer" value="JavaScript Window">JavaScript Window
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionThreeAnswer" value="Error Window">Error Window
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionThreeAnswer" value="JavaSript Fiddle">JavaScript Fiddle
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionThreeAnswer" value="JavaScript Console">JavaScript Console
+        </div>
+      </div>
+      <br>
+      <div class="question"><strong>4. How are the objects organized in the HTML DOM?</strong>
+        <div class="answer">
+          <input type="radio" name="questionFourAnswer" value="Class-wise">Class-wise
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionFourAnswer" value="Queue">Queue
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionFourAnswer" value="Hierarchy">Hierarchy
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionFourAnswer" value="Commits">Commits
+        </div>
+      </div>
+      <br>
+      <div class="question"><strong>5. Which object is the top of the hierarchy?</strong>
+        <div class="answer">
+          <input type="radio" name="questionFiveAnswer" value="Window Object">Window Object
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionFiveAnswer" value="Document Object">Document Object
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionFiveAnswer" value="Form Object">Form Object
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionFiveAnswer" value="Form Control Elements">Form Control Elements
+        </div>
+      </div>
+      <br>
+      <div class="question"><strong>6.The JavaScript's syntax calling (or executing) a function or method is called?</strong>
+        <div class="answer">
+          <input type="radio" name="questionSixAnswer" value="Primary Expression">Primary Expression
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionSixAnswer" value="Functional Expression">Functional Expression
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionSixAnswer" value="Invocation Expression">Invocation Expression
+        </div>
+        <div class="answer">
+          <input type="radio" name="questionSixAnswer" value="Property Access Expression">Property Access Expression
+        </div>
+      </div>
+      <br>
+      <div class="button-1">
+        <button type="Enter" name="Enter"><strong>What is my score</strong></button>
+      </div>
+    </form>
+<div id="main">
+  <textarea type="text" name="answer"id="result"></textarea>
 </div>
-    </div>
-<br>
-<div class="question">3. What is the other way of calling the Error Console in Firefox?
-<div class="answer">
-  <input type="radio" name="questionThreeAnswer" value="JavaScript Window">JavaScript Window
-</div>
-<div class="answer">
-<input type="radio" name="questionThreeAnswer" value="Error Window">Error Window
-</div>
-<div class="answer">
-  <input type="radio" name="questionThreeAnswer" value="JavaSript Fiddle">JavaScript Fiddle
-</div>
-<div class="answer">
-  <input type="radio" name="questionThreeAnswer" value="JavaScript Console">JavaScript Console
-</div>
-</div>
-<br>
-<div class="question">4. How are the objects organized in the HTML DOM?
-  <div class="answer">
-    <input type="radio" name="questionFourAnswer" value="Class-wise">Class-wise
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionFourAnswer" value="Queue">Queue
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionFourAnswer" value="Hierarchy">Hierarchy
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionFourAnswer" value="Commits">Commits
-  </div>
-</div>
-<br>
-<div class="question">5 Which object is the top of the hierarchy?
-  <div class="answer">
-    <input type="radio" name="questionFiveAnswer" value="Window Object">Window Object
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionFiveAnswer" value="Document Object">Document Object
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionFiveAnswer" value="Form Object">Form Object
-  </div>
-  <div class="answer">
-    <input type="radio" name="questionFiveAnswer" value="Form Control Elements">Form Control Elements
-  </div>
-</div>
-<br>
-<div class="question">6.The JavaScript's syntax calling (or executing) a function or method is called?
-<div class="answer">
-  <input type="radio" name="questionSixAnswer" value="Primary Expression">Primary Expression
-</div>
-<div class="answer">
-  <input type="radio" name="questionSixAnswer" value="Functional Expression">Functional Expression
-</div>
-<div class="answer">
-  <input type="radio" name="questionSixAnswer" value="Invocation Expression">Invocation Expression
-</div>
-<div class="answer">
-  <input type="radio" name="questionSixAnswer" value="Property Access Expression">Property Access Expression
-</div>
-</div>
-<br>
-</form>
-
 
 
 </body>
