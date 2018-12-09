@@ -1,4 +1,9 @@
 body {
-  background-image:url();
+  background-image: url();
   background-size: 40%, 40%;
+  background-color: lightblue;
+}
+.jumbotron {
+  color: red;
+  float: left;
 }
