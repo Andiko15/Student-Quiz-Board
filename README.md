@@ -16,6 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 See github link :
 
 ## Technologies Used
+
 These are the softwares needed to execute the project:
 
 IDEs include either: Atom, VS Code, Brackets.
@@ -29,7 +30,6 @@ Operating System either: Linux Operating System, Apple macOS, Microsoft Windows.
 The MIT License (MIT)
 
 Copyright (c) 2018 -present - Elizabeth's Portfolio - All Rights Reserved
-
 
 ## Acknowledgments
 
