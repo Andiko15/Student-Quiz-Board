@@ -8,15 +8,16 @@
   <script src="js/scripts.js"></script>
   <meta charset="utf-8">
   <title>Student-Quiz-Board</title>
+  <div class="jumbotron">
+    <h1>Student Quiz Board</h1>
+    <p>This is a multiple-choice quiz for the club and you are all required to complete all the questions. The test will take <strong>30 MINUTES</strong>.The quiz will enable you rate your understanding of JavaScript. Read through the choices then
+      select <strong>ONE ANSWER</strong>. Note that you will not get your results if the answers are incomplete so ensure you work on every question</p>
+  </div>
 </head>
 
 <body>
   <div class="container">
-    <div class="jumbotron">
-      <h1>Student Quiz Board</h1>
-      <p>This is a multiple-choice quiz for the club and you are all required to complete all the questions. The test will take <strong>30 MINUTES</strong>.The quiz will enable you rate your understanding of JavaScript. Read through the choices then
-        select <strong>ONE ANSWER</strong>.</p>
-    </div>
+
     <form id="exam" action="index.html" method="post">
       <div class="question"><strong>1.Which of the following function of Aray object removes the first element from an array and returns that element? </strong>
         <div class="answer">
@@ -114,9 +115,12 @@
     </form>
     <br>
     <div id="main" class="btn btn-success">
-      <textarea type="text" name="answer" id="result"></textarea>
+      <textarea type="text" name="answer" id="result" disabled></textarea>
     </div>
-
+<br>
+<div id="restart">
+  <a class="button" href="index.html">Restart</a>
+</div>
 </body>
 
 </html>
