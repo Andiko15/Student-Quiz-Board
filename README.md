@@ -13,14 +13,13 @@ The author of this code (Elizabeth Andiko) is currently a software development s
 ## Setup Instructions
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-See github link : https://github.com/Andiko15/Student-Quiz-Board.git
+See github link : <https://github.com/Andiko15/Student-Quiz-Board.git>
 
 ## Behaviour Driven development
 
 The program has a set of questions for students to answer
 Each correct answer carries a certain mark. All wrong answers have 0 mark.
 Once all the questions haev been answer, the result is given on the spot.
-
 
 ## Technologies Used
 
